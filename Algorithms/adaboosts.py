@@ -79,6 +79,73 @@ print([len(e.clf.estimators_) for e in res_lr])
 print([e.score for e in res_lr])
 
 
+clf = AdaBoostClassifier(base_estimator=LogisticRegression(C=10, solver='lbfgs', n_jobs=20), n_estimators=1, algorithm='SAMME')
+clf.fit(trainX, trainY)
+score = clf.score(validX_sub,validY_sub)
+
+
+
+clf=LogisticRegression(C=10, solver='lbfgs', n_jobs=20)
+clf.fit(trainX, trainY)
+score = clf.score(validX_sub,validY_sub)
+
+
+import math
+
+
+
+trainY[trainY==0] = -1
+validY[validY==0] = -1
+testY[testY==0] = -1
+
+from sklearn.linear_model import LogisticRegression
+def adaboost(trainX, trainY, n_iterations):
+    # initialize sample weights
+    sample_weights = np.array([1/trainX.shape[0]] * trainX.shape[0])
+    # initialize classifier
+    clf=LogisticRegression(C=10, solver='lbfgs', n_jobs=20)
+    coef = []
+    clfs = []
+    pres = []
+    for i in range(n_iterations):
+        clf.fit(trainX, trainY, sample_weight=sample_weights)
+        pre = clf.predict(trainX)
+        err = np.sum(sample_weights[trainY!=pre])/np.sum(sample_weights)
+        print('error rate of %dth iteration is: %f' % (i, err))
+        # compute the alpha and store it
+        alpha = 1/2*math.log((1-err)/err)
+        print('alpha of %dth iteration is: %f' % (i, alpha))
+        sample_weights[trainY!=pre] = sample_weights[trainY!=pre] * math.exp(2*alpha)
+        clfs.append(clf)
+        coef.append(alpha)
+    output = []
+    for i in range(n_iterations):
+        output.append(clfs[i].predict(validX)*coef[i])
+    ans = np.sum(output,axis=0)
+    ans[ans>=0] = 1
+    ans[ans<0] = -1
+    acc = sum((ans*validY)==1)/len(ans)
+
+
+logreg = LogisticRegression(C=10, solver='lbfgs', n_jobs=20)
+logreg.fit(trainX, trainY, sample_weight=np.array([1/trainX.shape[0]] * trainX.shape[0]))
+logreg.score(validX,validY) # 0.5673855350896909
+
+logreg = LogisticRegression(C=10, solver='lbfgs', n_jobs=20)
+logreg.fit(trainX, trainY, sample_weight=[1]*trainX.shape[0])
+logreg.score(validX,validY) # 0.62352338852676
+
+logreg = LogisticRegression(C=10, solver='lbfgs', n_jobs=20)
+logreg.fit(trainX, trainY, sample_weight=[10]*trainX.shape[0])
+logreg.score(validX,validY) # 0.6235240457478453
+
+logreg = LogisticRegression(C=10, solver='lbfgs', n_jobs=20)
+logreg.fit(trainX, trainY, sample_weight=[0.1]*trainX.shape[0])
+logreg.score(validX,validY) # 0.6235477057069135
+
+logreg = LogisticRegression(C=10, solver='lbfgs', n_jobs=20)
+logreg.fit(trainX, trainY, sample_weight=[1e-6]*trainX.shape[0])
+logreg.score(validX,validY) # 0.5965720662636587
 
 
 
