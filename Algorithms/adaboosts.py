@@ -101,13 +101,14 @@ testY[testY==0] = -1
 from sklearn.linear_model import LogisticRegression
 def adaboost(trainX, trainY, n_iterations):
     # initialize sample weights
-    sample_weights = np.array([1/trainX.shape[0]] * trainX.shape[0])
+    sample_weights = np.array([1.] * trainX.shape[0])
     # initialize classifier
     clf=LogisticRegression(C=10, solver='lbfgs', n_jobs=20)
     coef = []
     clfs = []
     pres = []
     for i in range(n_iterations):
+        clf=LogisticRegression(C=10, solver='lbfgs', n_jobs=20)
         clf.fit(trainX, trainY, sample_weight=sample_weights)
         pre = clf.predict(trainX)
         err = np.sum(sample_weights[trainY!=pre])/np.sum(sample_weights)
@@ -115,7 +116,12 @@ def adaboost(trainX, trainY, n_iterations):
         # compute the alpha and store it
         alpha = 1/2*math.log((1-err)/err)
         print('alpha of %dth iteration is: %f' % (i, alpha))
-        sample_weights[trainY!=pre] = sample_weights[trainY!=pre] * math.exp(2*alpha)
+        # updated_weights = sample_weights[trainY!=pre] * math.exp(2*alpha)
+        # sample_weights[trainY!=pre] = updated_weights
+        updated_weights_right = sample_weights[trainY==pre] * math.exp(-1*alpha)
+        updated_weights_wrong = sample_weights[trainY!=pre] * math.exp(alpha)
+        sample_weights[trainY==pre] = updated_weights_right
+        sample_weights[trainY!=pre] = updated_weights_wrong
         clfs.append(clf)
         coef.append(alpha)
     output = []
