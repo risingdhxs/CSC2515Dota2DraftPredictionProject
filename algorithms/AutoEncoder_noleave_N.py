@@ -25,7 +25,7 @@ class autoencoder(nn.Module):
         decoded = self.decoder(encoded)
         return encoded, decoded
 
-num_epochs = 100
+num_epochs = 50
 batch_size = 128
 learning_rate = 1e-3
 model = autoencoder()
@@ -77,8 +77,8 @@ for epoch in range(num_epochs):
         lossValid = criterion(reconValid, ValidXae)
         encodingTest, reconTest = model(TestXae)
         lossTest = criterion(reconTest, TestXae)
-        print('Training loss:{:.4f}, Validation loss:{:.4f}, Test loss:{:.4f}'.format(lossTrain.data[0],lossValid.data[0],lossTest.data[0]))
+        print('Training loss:{:.4f}, Validation loss:{:.4f}, Test loss:{:.4f}'.format(lossTrain.item(),lossValid.item(),lossTest.item()))
 
 print('Finished training on all_IO_noleave_N dataset')
 print('Saving Model...')
-torch.save(model, 'AutoEncoder_100_50_10.pt')
+torch.save(model, 'AutoEncoder_100_50_10_50epoch.pt')
