@@ -2,67 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="589c9441-dfe4-49c8-8357-b85c25ecfcd9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/Dota2.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Benchmark_NaiveBayes_sklearnBernoulliNB_Gary.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Benchmark_SVM_LR.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Benchmark_SVM_LR.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Benchmark_SVM_lin_model.p" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Benchmark_SVM_rbf_model_Gary.p" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Benchmark_SVM_sklearnsvmsvc_Gary.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/BenchmarkonNoLeaverAllDataset.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/BenchmarkonNoLeaverNDataset.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/BenchmarkonNoLeaverVHDataset.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/ConvertPreviousDenseMatchInputVectortoSparse.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/ExtractMatchVectors.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/ExtractMatchVectors_sparse_noleave.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/ExtractMatchVectors_sparse_noleave_N.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/ExtractMatchVectors_sparse_noleave_VH.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/ExtractPC100FromSparseTrainingInput.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/ModelBackup/Benchmark_NaiveBayes_BernoulliNB_model_Gary.p" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/ModelBackup/Benchmark_SVM_lin_model_Gray.p" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/ModelBackup/Benchmark_SVM_rbf_model_Gary.p" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/SavingAllSetsSparseInOutDatainNPZ.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/AllSetSparseInOut.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/AllSetSparseInOut_noleave.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/AllSetSparseInOut_noleave_N.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/AllSetSparseInOut_noleave_VH.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/NoLeaverAll_TrainRightSingularVectors_100.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/NoLeaverN_TrainRightSingularVectors_100.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/NoLeaverVH_TrainRightSingularVectors_100.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/SemenovData_small.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/TestInput_sparse_noleave.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/TestInput_sparse_noleave_N.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/TestInput_sparse_noleave_VH.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/TestOutput_sparse_noleave.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/TestOutput_sparse_noleave_N.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/TestOutput_sparse_noleave_VH.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/TrainInput_sparse_noleave.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/TrainInput_sparse_noleave_N.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/TrainInput_sparse_noleave_VH.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/TrainOutput_sparse_noleave.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/TrainOutput_sparse_noleave_N.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/TrainOutput_sparse_noleave_VH.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/TrainsetSVDRightSingularVectors_200.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/ValidInput_sparse_noleave.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/ValidInput_sparse_noleave_N.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/ValidInput_sparse_noleave_VH.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/ValidOutput_sparse_noleave.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/ValidOutput_sparse_noleave_N.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/ValidOutput_sparse_noleave_VH.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/testsetInputVector_sparse.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/testsetResult.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/trainsetInputVector_100000_sparse.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/trainsetInputVector_20000_sparse.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/trainsetInputVector_sparse.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/trainsetResult.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/trainsetResult_100000.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/trainsetResult_20000.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/validsetInputVector_sparse.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/validsetResult.csv" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/algorithms/Structured_NN/FCNN_by_zhou.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/algorithms/Structured_NN/FC_Synergy_Counter1.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/algorithms/Structured_NN/FC_Synergy_Counter2.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/algorithms/practice/autograd.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/algorithms/practice/tensors.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/Dota2.iml" afterPath="$PROJECT_DIR$/.idea/Dota2.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -72,12 +19,81 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Dota2$LR_with_synergy_and_opposition.coverage" NAME="LR_with_synergy_and_opposition Coverage Results" MODIFIED="1542209900383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms" />
+    <SUITE FILE_PATH="coverage/Dota2$nn__1_.coverage" NAME="nn (1) Coverage Results" MODIFIED="1543455885589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
+    <SUITE FILE_PATH="coverage/Dota2$NN_with_synergy_and_opposition.coverage" NAME="NN_with_synergy_and_opposition Coverage Results" MODIFIED="1543368127523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
+    <SUITE FILE_PATH="coverage/Dota2$toy_tensorflow.coverage" NAME="toy_tensorflow Coverage Results" MODIFIED="1543003919320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3" />
     <SUITE FILE_PATH="coverage/Dota2$LG.coverage" NAME="LG Coverage Results" MODIFIED="1541623542481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Dota2$tensors.coverage" NAME="tensors Coverage Results" MODIFIED="1543351919492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms/practice" />
+    <SUITE FILE_PATH="coverage/Dota2$parser.coverage" NAME="parser Coverage Results" MODIFIED="1543181499385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3" />
+    <SUITE FILE_PATH="coverage/Dota2$FC_1.coverage" NAME="FC_1 Coverage Results" MODIFIED="1543511321360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms/practice" />
+    <SUITE FILE_PATH="coverage/Dota2$model.coverage" NAME="model Coverage Results" MODIFIED="1543097138131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3" />
+    <SUITE FILE_PATH="coverage/Dota2$autograd.coverage" NAME="autograd Coverage Results" MODIFIED="1543352548111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms/practice" />
+    <SUITE FILE_PATH="coverage/Dota2$FCNN.coverage" NAME="FCNN Coverage Results" MODIFIED="1543440151678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
+    <SUITE FILE_PATH="coverage/Dota2$nn.coverage" NAME="nn Coverage Results" MODIFIED="1543441595187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms/practice" />
+    <SUITE FILE_PATH="coverage/Dota2$LR_with_synergy_and_opposition.coverage" NAME="LR_with_synergy_and_opposition Coverage Results" MODIFIED="1542209900383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms" />
+    <SUITE FILE_PATH="coverage/Dota2$initialization.coverage" NAME="initialization Coverage Results" MODIFIED="1543010653361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3" />
     <SUITE FILE_PATH="coverage/Dota2$NaiveBayes.coverage" NAME="NaiveBayes Coverage Results" MODIFIED="1541643356387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FC_Synergy_Counter1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithms/Structured_NN/FC_Synergy_Counter1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+              <folding>
+                <element signature="e#24#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FC_Synergy_Counter2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithms/Structured_NN/FC_Synergy_Counter2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+              <folding>
+                <element signature="e#24#39#0" expanded="true" />
+                <element signature="e#1054#1353#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FC_Synergy_Counter3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithms/Structured_NN/FC_Synergy_Counter3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FC_Synergy_Counter4.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithms/Structured_NN/FC_Synergy_Counter4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FCNN_by_zhou.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithms/Structured_NN/FCNN_by_zhou.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+              <folding>
+                <element signature="e#24#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,11 +104,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>where</find>
-      <find>np.dot</find>
-      <find>TrainInputSparse</find>
-      <find>,</find>
-      <find>trans</find>
+      <find>parse_step</find>
+      <find>get_deprel</find>
+      <find>your</find>
+      <find>word</find>
+      <find>relu</find>
+      <find>type</find>
+      <find>getting training</find>
+      <find>xavier_initializer</find>
+      <find>ora</find>
+      <find>get_right_deps</find>
+      <find>get_left_deps</find>
+      <find>PartialParse</find>
+      <find>get_de</find>
+      <find>classes</find>
+      <find>q2</find>
+      <find>hidden_size</find>
+      <find>dropout</find>
+      <find>get_ora</find>
+      <find>add_loss_op</find>
+      <find>add_prediction_op</find>
+      <find>eval</find>
+      <find>ParserModel</find>
+      <find>get_or</find>
+      <find>config</find>
+      <find>11</find>
+      <find>time</find>
+      <find>f</find>
+      <find>n_matches</find>
+      <find>epoch_avg_loss</find>
+      <find>pickle</find>
     </findStrings>
     <replaceStrings>
       <replace>\n</replace>
@@ -104,11 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data_prepross.py" />
-        <option value="$PROJECT_DIR$/../../homework/hw3/q1_lse.py" />
-        <option value="$PROJECT_DIR$/LG.py" />
-        <option value="$PROJECT_DIR$/LG_by_hand.py" />
-        <option value="$PROJECT_DIR$/NaiveBayes.py" />
         <option value="$PROJECT_DIR$/Benchmark_LR&amp;NB_Zhou.ipynb" />
         <option value="$PROJECT_DIR$/LR_with_synergy_and_countering.py" />
         <option value="$PROJECT_DIR$/LR_with_synergy_and_opposition.py" />
@@ -116,6 +152,50 @@
         <option value="$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms/duplication_test.py" />
         <option value="$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms/LR_with_S_and_C_all_data_performance.py" />
         <option value="$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms/LR_with_synergy_and_opposition.py" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/toy_tensorflow.py" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/initialization.py" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/result.debug.true" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/data2.py" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/parser.py" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/result.debug.true" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model_increase_learning_rate.py" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model_increase_hidden_size.py" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model_increase_epochs.py" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model_decrease_learning_rate.py" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model_decrease_hidden_size.py" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/decrease_hidden_size" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/decrease_learning_rate" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/increase_epoch" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/increase_hidden_size" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/increase_learning_rate" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/submit/q2ctest.txt" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/result.debug.false" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model_increase_hidden_layer.py" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/increase_hidden_layer" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model.py" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model_regularize_increase_hidden_layer_and_hidden_size.py" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model_increase_hidden_layer_and_hidden_size.py" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/increase_regularizer_hidden_layer" />
+        <option value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/increase_layer_and_hidden_units" />
+        <option value="$PROJECT_DIR$/algorithms/NN_FC.py" />
+        <option value="$PROJECT_DIR$/algorithms/practice/tensors.py" />
+        <option value="$PROJECT_DIR$/algorithms/practice/autograd.py" />
+        <option value="$PROJECT_DIR$/algorithms/NN_with_synergy_and_opposition.py" />
+        <option value="$PROJECT_DIR$/algorithms/FCNN.py" />
+        <option value="$PROJECT_DIR$/algorithms/practice/nn.py" />
+        <option value="$PROJECT_DIR$/algorithms/nn.py" />
+        <option value="$PROJECT_DIR$/algorithms/practice/FC_1.py" />
+        <option value="$PROJECT_DIR$/algorithms/FC_by_zhou.py" />
+        <option value="$PROJECT_DIR$/algorithms/FC_with_sc.py" />
+        <option value="$PROJECT_DIR$/algorithms/FC_Synergy_Counter_by_zhou.py" />
+        <option value="$PROJECT_DIR$/algorithms/FC_Synergy_Counter1.py" />
+        <option value="$PROJECT_DIR$/algorithms/FC_Synergy_Counter2.py" />
+        <option value="$PROJECT_DIR$/algorithms/FCNN_by_zhou.py" />
+        <option value="$PROJECT_DIR$/algorithms/Structured_NN/FC_Synergy_Counter1.py" />
+        <option value="$PROJECT_DIR$/algorithms/Structured_NN/FC_Synergy_Counter2.py" />
+        <option value="$PROJECT_DIR$/algorithms/Structured_NN/FC_Synergy_Counter3.py" />
+        <option value="$PROJECT_DIR$/algorithms/Structured_NN/FC_Synergy_Counter4.py" />
+        <option value="$PROJECT_DIR$/algorithms/Structured_NN/FCNN_by_zhou.py" />
       </list>
     </option>
   </component>
@@ -132,10 +212,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="-11" />
-    <option name="width" value="1368" />
-    <option name="height" value="780" />
+    <option name="x" value="1524" />
+    <option name="y" value="223" />
+    <option name="width" value="1366" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -178,6 +258,41 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Assignment3" type="cbb8eebc:String" user="Assignment3" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Assignment3" type="cbb8eebc:String" user="Assignment3" />
+              <item name="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3" type="cbb8eebc:String" user="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Assignment3" type="cbb8eebc:String" user="Assignment3" />
+              <item name="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3" type="cbb8eebc:String" user="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3" />
+              <item name="corpora" type="cbb8eebc:String" user="corpora" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Assignment3" type="cbb8eebc:String" user="Assignment3" />
+              <item name="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3" type="cbb8eebc:String" user="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3" />
+              <item name="Results" type="cbb8eebc:String" user="Results" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Assignment3" type="cbb8eebc:String" user="Assignment3" />
+              <item name="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3" type="cbb8eebc:String" user="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3" />
+              <item name="utils" type="cbb8eebc:String" user="utils" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,14 +303,33 @@
             <path>
               <item name="Dota2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dota2" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dota2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dota2" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Structured_NN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dota2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dota2" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dota2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dota2" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="all" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dota2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,11 +344,20 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.standard" value="$USER_HOME$/.nvm/versions/node/v9.4.0/lib/node_modules/eslint" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/submit/q2ctest.txt" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/submit/q2ctest.txt" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algorithms/Structured_NN" />
+      <recent name="$PROJECT_DIR$/algorithms/practice" />
+      <recent name="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results" />
       <recent name="$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algorithms" />
+      <recent name="$PROJECT_DIR$/algorithms/practice" />
+      <recent name="$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -228,6 +371,119 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python.FC_1">
+    <configuration name="FCNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Dota2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/practice/FCNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="FC_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms/practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Dota2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/practice/FC_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="NN_with_synergy_and_opposition" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Dota2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/practice/NN_with_synergy_and_opposition.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="nn (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Dota2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/practice/nn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="nn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms/practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Dota2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/practice/nn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.NN_with_synergy_and_opposition" />
+      <item index="1" class="java.lang.String" itemvalue="Python.FCNN" />
+      <item index="2" class="java.lang.String" itemvalue="Python.nn" />
+      <item index="3" class="java.lang.String" itemvalue="Python.nn (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.FC_1" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.FC_1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.nn (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.nn" />
+        <item index="3" class="java.lang.String" itemvalue="Python.FCNN" />
+        <item index="4" class="java.lang.String" itemvalue="Python.NN_with_synergy_and_opposition" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -245,30 +501,62 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
+    <frame x="1524" y="223" width="1922" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4344086" sideWeight="0.50213444" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24623656" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4919355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.425" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3106796" sideWeight="0.49786553" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32473117" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20651014" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19210246" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46666667" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46278316" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4344086" sideWeight="0.50213444" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38817203" sideWeight="0.49786553" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32580644" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30833334" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19210246" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3967742" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -289,137 +577,453 @@
           <line>21</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model_increase_hidden_layer_and_hidden_size.py</url>
+          <line>373</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithms/practice/NN_with_synergy_and_opposition.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithms/practice/FCNN.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithms/practice/FCNN.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithms/practice/nn.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="np.asmatrix(train_X)[0,0]" language="Python" />
+        <watch expression="test_x[0]" language="Python" />
+        <watch expression="y.size()" language="Python" />
+        <watch expression="z.size()" language="Python" />
+        <watch expression="test_x.toarray()[0]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>np.asmatrix(train_X)[0,0]</expression-string>
+        <expression-string>test_x.toarray()[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>np.asmatrix(train_X)[0,1]</expression-string>
+        <expression-string>test_x.toarray()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>np.asmatrix(train_X)</expression-string>
+        <expression-string>test_x.todense()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>train_X.shape</expression-string>
+        <expression-string>test_x[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>type(train_X)</expression-string>
+        <expression-string>type(test_x)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>str(train_X)</expression-string>
+        <expression-string>z.size()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>dataY.todense()</expression-string>
+        <expression-string>y.size()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>dataX.todense()</expression-string>
+        <expression-string>y_pred.size()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>np.dot(trainX, weights)</expression-string>
+        <expression-string>y_pred.squeeze().size()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.next</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms/duplication_test.py" />
-    <entry file="file://$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms/LR_with_S_and_C_all_data_performance.py" />
-    <entry file="file://$PROJECT_DIR$/LR.py" />
-    <entry file="file://$PROJECT_DIR$/NaiveBayes.py" />
-    <entry file="file://$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms/LR_with_synergy_and_opposition.py" />
-    <entry file="file://$PROJECT_DIR$/LG_by_hand.py" />
-    <entry file="file://$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms/LR_with_synergy_and_opposition.py" />
-    <entry file="file://$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms/duplication_test.py" />
-    <entry file="file://$PROJECT_DIR$/LR.py" />
-    <entry file="file://$PROJECT_DIR$/NaiveBayes.py" />
-    <entry file="file://$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms/LR_with_S_and_C_all_data_performance.py" />
-    <entry file="file://$PROJECT_DIR$/LG_by_hand.py" />
-    <entry file="file://$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms/LR_with_S_and_C_all_data_performance.py" />
-    <entry file="file://$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms/duplication_test.py" />
-    <entry file="file://$PROJECT_DIR$/LR.py" />
-    <entry file="file://$PROJECT_DIR$/NaiveBayes.py" />
-    <entry file="file://$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms/LR_with_synergy_and_opposition.py" />
-    <entry file="file://$PROJECT_DIR$/LG_by_hand.py" />
-    <entry file="file://$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms/LR_with_synergy_and_opposition.py" />
-    <entry file="file://$PROJECT_DIR$/LR.py" />
-    <entry file="file://$PROJECT_DIR$/NaiveBayes.py" />
-    <entry file="file://$PROJECT_DIR$/LG_by_hand.py" />
-    <entry file="file://$PROJECT_DIR$/LR.py" />
-    <entry file="file://$PROJECT_DIR$/NaiveBayes.py" />
-    <entry file="file://$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms/LR_with_synergy_and_opposition.py" />
-    <entry file="file://$PROJECT_DIR$/LG_by_hand.py" />
-    <entry file="file://$PROJECT_DIR$/LR.py" />
-    <entry file="file://$PROJECT_DIR$/NaiveBayes.py" />
-    <entry file="file://$PROJECT_DIR$/LG_by_hand.py" />
-    <entry file="file://$PROJECT_DIR$/LR.py" />
-    <entry file="file://$PROJECT_DIR$/NaiveBayes.py" />
-    <entry file="file://$PROJECT_DIR$/LG_by_hand.py" />
-    <entry file="file://$PROJECT_DIR$/NaiveBayes.py" />
-    <entry file="file://$PROJECT_DIR$/LR.py" />
-    <entry file="file://$PROJECT_DIR$/LG_by_hand.py" />
-    <entry file="file://$PROJECT_DIR$/LG_by_hand.py" />
-    <entry file="file://$PROJECT_DIR$/LG_by_hand.py" />
-    <entry file="file://$PROJECT_DIR$/data_prepross.py" />
-    <entry file="file://$PROJECT_DIR$/ExtractMatchVectors.ipynb" />
-    <entry file="file://$PROJECT_DIR$/data/npz/test_input_vector_sparse.npz" />
-    <entry file="file://$PROJECT_DIR$/../../homework/hw3/q1_lse.py">
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/nn_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-267">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="166">
+          <caret line="1511" column="0" lean-forward="false" selection-start-line="1511" selection-start-column="0" selection-end-line="1511" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../homework/hw1/hw1_code.py">
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/data2.py" />
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/parser2.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/random_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1296">
+        <state relative-caret-position="661">
+          <caret line="216" column="70" lean-forward="true" selection-start-line="216" selection-start-column="70" selection-end-line="216" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="502" column="45" lean-forward="false" selection-start-line="502" selection-start-column="45" selection-end-line="502" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/toy_tensorflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/initialization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model_increase_epochs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="435" column="0" lean-forward="false" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model_increase_hidden_size.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="435" column="0" lean-forward="false" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/submit/q2btest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/submit/q2ctest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model_increase_hidden_layer_and_hidden_size.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1023">
+          <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/submit/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="414" column="45" lean-forward="false" selection-start-line="414" selection-start-column="45" selection-end-line="414" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/submit/initialization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model_increase_hidden_layer_and_hidden_size.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5904">
+          <caret line="345" column="37" lean-forward="false" selection-start-line="345" selection-start-column="37" selection-end-line="345" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/increase_regularizer_hidden_layer">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model_regularize_increase_hidden_layer_and_hidden_size.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model_decrease_learning_rate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="40" column="15" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model_increase_learning_rate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../homework/hw3/q1.py">
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model_decrease_hidden_size.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Benchmark_LR&amp;NB_Zhou.ipynb" />
-    <entry file="file://$PROJECT_DIR$/NaiveBayes.py" />
-    <entry file="file://$PROJECT_DIR$/LR.py" />
-    <entry file="file://$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms/duplication_test.py" />
-    <entry file="file://$PROJECT_DIR$/LG_by_hand.py" />
-    <entry file="file://$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms/LR_with_S_and_C_all_data_performance.py" />
-    <entry file="file://$PROJECT_DIR$/CSC2515Dota2DraftPredictionProject/Algorithms/LR_with_synergy_and_opposition.py" />
-    <entry file="file://$PROJECT_DIR$/Algorithms/ConvertPreviousDenseMatchInputVectortoSparse.ipynb">
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/result.debug.true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/decrease_hidden_size">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="55" column="88" lean-forward="false" selection-start-line="55" selection-start-column="82" selection-end-line="55" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/increase_epoch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="95" column="88" lean-forward="false" selection-start-line="95" selection-start-column="84" selection-end-line="95" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/increase_layer_and_hidden_units">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="55" column="88" lean-forward="false" selection-start-line="55" selection-start-column="84" selection-end-line="55" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/decrease_learning_rate">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="55" column="89" lean-forward="false" selection-start-line="55" selection-start-column="83" selection-end-line="55" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/increase_learning_rate">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="55" column="89" lean-forward="false" selection-start-line="55" selection-start-column="85" selection-end-line="55" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/submit/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3618">
+          <caret line="206" column="8" lean-forward="false" selection-start-line="206" selection-start-column="8" selection-end-line="206" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/increase_hidden_size">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="55" column="89" lean-forward="false" selection-start-line="55" selection-start-column="85" selection-end-line="55" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/torch/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="401" column="19" lean-forward="true" selection-start-line="401" selection-start-column="19" selection-end-line="401" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/NN_FC.py" />
+    <entry file="file://$PROJECT_DIR$/algorithms/data_processing/ExtractMatchVectors_sparse_noleave_N.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="0" />
+          <selected id="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/Results/result.debug.false">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/utils/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/practice/tensors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/practice/autograd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/torch/nn/modules/activation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="223" column="6" lean-forward="false" selection-start-line="223" selection-start-column="6" selection-end-line="223" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CSC2501_CL/Assignment/Assignment3/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="382" column="71" lean-forward="false" selection-start-line="382" selection-start-column="8" selection-end-line="382" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/practice/nn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="76" column="21" lean-forward="true" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/torch/utils/data/dataloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="449" column="8" lean-forward="false" selection-start-line="449" selection-start-column="8" selection-end-line="449" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/Gaussian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/LR_with_synergy_and_opposition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="111" column="76" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/practice/FC_1.py" />
+    <entry file="file://$PROJECT_DIR$/algorithms/practice/FCNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/practice/nn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/practice/NN_with_synergy_and_opposition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="113" column="4" lean-forward="false" selection-start-line="113" selection-start-column="4" selection-end-line="115" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/Structured_NN/FC_Synergy_Counter1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/Structured_NN/FC_Synergy_Counter2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+            <element signature="e#1054#1353#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/Structured_NN/FC_Synergy_Counter3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/Structured_NN/FC_Synergy_Counter4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/Structured_NN/FCNN_by_zhou.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="e#24#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
