@@ -5,7 +5,7 @@ from torch import nn
 from torch.utils.data import DataLoader
 from autoencoder_def_flex import autoencoder
 
-num_epochs = 250
+num_epochs = 300
 batch_size = 4096
 learning_rate = 1e-3
 n_print = 1
@@ -34,7 +34,11 @@ ValidXae = torch.from_numpy(np.vstack((ValidX[:, :int(n / 2)], ValidX[:, int(n /
 del ValidX
 dataloader_valid = DataLoader(ValidXae, batch_size=batch_size, shuffle=False)
 
-print('Training AutoEncoder with layer {}-{}-{} with max epoch {}'.format(layer[0], layer[1], layer[2],num_epochs))
+if len(layer) == 3:
+    print('Training AutoEncoder with layer {}-{}-{} with max epoch {}'.format(layer[0], layer[1], layer[2], num_epochs))
+else:
+    print('Training AutoEncoder with layer {}-{}-{}-{} with max epoch {}'.format(layer[0], layer[1], layer[2], layer[3], num_epochs))
+
 print('Training Set size:', TrainXae.shape[0], ' batchsize:', batch_size, ' Chunks per epoch:',
       np.floor(TrainXae.shape[0] / batch_size))
 loss_train = np.zeros((num_epochs, 1))
