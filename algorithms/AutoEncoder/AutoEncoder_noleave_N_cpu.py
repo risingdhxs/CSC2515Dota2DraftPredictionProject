@@ -120,5 +120,5 @@ torch.save({
     'loss_train': loss_train,
     'loss_valid': loss_valid,
     'loss_test': loss_test,
-}, 'AutoEncoder_100_50_10_cpu2epochtest.pt')
-print('Saved Model to AutoEncoder_100_50_10_cpu2epochtest.pt...')
+}, 'AutoEncoder_100_50_10_all_IO_noleave_N.pt')
+print('Saved Model to AutoEncoder_100_50_10_all_IO_noleave_N.pt')
