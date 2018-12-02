@@ -1,4 +1,4 @@
-def trainautoencoder(layer, set, num_epochs):
+def trainautoencoder(layer, set):
     import numpy as np
     import time
     import torch
@@ -12,7 +12,7 @@ def trainautoencoder(layer, set, num_epochs):
     datapath = '../../data/all/all_IO_noleave_' + set + '.npz'
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-    n_print = 10
+    n_print = 100
 
     model = autoencoder(layer).to(device)
     criterion = nn.BCELoss().to(device)
@@ -23,7 +23,7 @@ def trainautoencoder(layer, set, num_epochs):
     TrainX = np.asarray(np.asmatrix(dataset['TrainX'])[0, 0].astype(np.float32).todense())
     ValidX = np.asarray(np.asmatrix(dataset['ValidX'])[0, 0].astype(np.float32).todense())
 
-    print('Converting dataset matrices to torch tensors...')
+    # print('Converting dataset matrices to torch tensors...')
     n = TrainX.shape[1]
 
     TrainXae = torch.from_numpy(np.vstack((TrainX[:, :int(n / 2)], TrainX[:, int(n / 2):]))).to(device)
@@ -35,21 +35,23 @@ def trainautoencoder(layer, set, num_epochs):
     dataloader_valid = DataLoader(ValidXae, batch_size=batch_size, shuffle=False)
 
     if len(layer) == 3:
-        print('Training AutoEncoder of layer {}-{}-{}, max epoch {}'.format(layer[0], layer[1], layer[2], num_epochs))
+        print('Training AutoEncoder of layer {}-{}-{}'.format(layer[0], layer[1], layer[2]))
     else:
-        print('Training AutoEncoder of layer {}-{}-{}-{}, max epoch {}'.format(layer[0], layer[1], layer[2], layer[3],
-                                                                               num_epochs))
+        print('Training AutoEncoder of layer {}-{}-{}-{}'.format(layer[0], layer[1], layer[2], layer[3]))
 
     print('Training Set size:{}, batch size:{}'.format(TrainXae.shape[0], batch_size))
-    loss_train = np.zeros((num_epochs, 1))
-    loss_valid = np.zeros((num_epochs, 1))
 
     loss_opt = 1
     epoch_opt = 0
     model_state_dict_opt = model.state_dict()
     optimizer_state_dict_opt = optimizer.state_dict()
 
-    for epoch in range(num_epochs):
+    notoverfitting = True
+    epochs = 0
+    loss_train = np.zeros((0, 1))
+    loss_valid = np.zeros((0, 1))
+
+    while notoverfitting:
         start = time.time()
         i = 0
         loss_sum = 0
@@ -63,28 +65,40 @@ def trainautoencoder(layer, set, num_epochs):
             loss.backward()
             optimizer.step()
         # ===================log========================
-        loss_train[epoch, 0] = loss_sum / i
+        loss_train = np.vstack((loss_train, loss_sum/i))
 
         i = 0
-        loss = 0
+        loss_sum = 0
         for data in dataloader_valid:
             i += 1
             _, recon = model(data)
-            loss = loss + criterion(recon, data).item()
-        # loss_valid = np.vstack((loss_valid,loss/i))
-        loss_valid[epoch, 0] = loss / i
+            loss_sum = loss_sum + criterion(recon, data).item()
+        loss_valid = np.vstack((loss_valid, loss_sum/i))
+
         end = time.time()
-        if loss_valid[epoch, 0] < loss_opt:
-            loss_opt = loss_valid[epoch, 0]
-            epoch_opt = epoch
+
+        if loss_valid[-1, 0] < loss_opt:
+            loss_opt = loss_valid[-1, 0]
+            epoch_opt = epochs
             model_state_dict_opt = model.state_dict()
             optimizer_state_dict_opt = optimizer.state_dict()
 
-        if epoch % n_print == 0:
+        if epochs % n_print == 0:
             print(
-                'Finished epoch [{}/{}], training time {:.2f}s. Training loss:{:.4f}, Validation loss:{:.4f}'.format(
-                    epoch, num_epochs, end - start, loss_train[epoch, 0], loss_valid[epoch, 0]))
+                'Finished epoch {}, training time {:.2f}s. Training loss:{:.4f}, Validation loss:{:.4f}'.format(
+                    epochs, end - start, loss_train[-1, 0], loss_valid[-1, 0]))
+        # ############################
+        # For test purpose only
+        # if epochs > 2:
+        #     notoverfitting = False
+        # ############################
+        if (loss_valid[-1, 0] > 1.15*loss_opt):
+            notoverfitting = False
 
+        epochs = epochs + 1
+
+
+    print('Training overfits at epoch {}; optimal model occurred at epoch {}'.format(epochs - 1, epoch_opt))
     TestX = np.asarray(np.asmatrix(dataset['TestX'])[0, 0].astype(np.float32).todense())
     TestXae = torch.from_numpy(np.vstack((TestX[:, :int(n / 2)], TestX[:, int(n / 2):]))).to(device)
     del TestX
@@ -106,18 +120,17 @@ def trainautoencoder(layer, set, num_epochs):
     else:
         filetitle = 'AutoEncoder_{}_{}_{}_{}_all_IO_noleave_{}.pt'.format(layer[0], layer[1], layer[2], layer[3], set)
 
-    print('Finished Training {}: optimal Validation loss:{:.4f} at epoch:{};'
-          ' Test Set loss:{:.4f}'.format(filetitle, loss_opt, epoch_opt, loss_test))
+    print('Finished Training {}: optimal Validation loss:{:.4f} at epoch:{}; Test Set loss:{:.4f}'.format(filetitle, loss_opt, epoch_opt, loss_test))
 
     torch.save({
         'model_state_dict': model_state_dict_opt,
         'optimizer_state_dict': optimizer_state_dict_opt,
         'layer': layer,
-        'epoch_max': num_epochs,
+        'epochs': epochs,
         'epoch_optimal': epoch_opt,
         'loss_optimal': loss_opt,
         'loss_train': loss_train,
         'loss_valid': loss_valid,
         'loss_test': loss_test,
     }, filetitle)
-    print('Saved Model to', filetitle)
+
