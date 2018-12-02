@@ -105,7 +105,11 @@ for data in dataloader_test:
     loss_test = loss_test + criterion(recon, data).item()
 
 loss_test = loss_test / i
-filetitle='AutoEncoder_{}_{}_{}_all_IO_noleave_N.pt'.format(layer[0],layer[1],layer[2])
+if len(layer) == 3:
+    filetitle='AutoEncoder_{}_{}_{}_all_IO_noleave_N.pt'.format(layer[0],layer[1],layer[2])
+else:
+    filetitle = 'AutoEncoder_{}_{}_{}_{}_all_IO_noleave_N.pt'.format(layer[0], layer[1], layer[2], layer[3])
+
 print('Finished Training {}-{}-{} AutoEncoder on all_IO_noleave_N dataset: optimal Validation loss:{:.4f} at epoch:{};'
       ' Test Set loss:{:.4f}'.format(layer[0],layer[1],layer[2],loss_opt, epoch_opt, loss_test))
 
