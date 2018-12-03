@@ -16,7 +16,6 @@ parser.add_argument('p', type=str) # path
 parser.add_argument('b', type=int) # batch size
 
 
-
 args = parser.parse_args()
 
 fc_id = args.a
@@ -30,22 +29,22 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
 if fc_id == 1:
-    from networks2 import Net_1
+    from networks import Net_1
     model = Net_1(226, 2).to(device)
 elif fc_id == 2:
-    from networks2 import Net_2
+    from networks import Net_2
     model = Net_2(226, 2).to(device)
 elif fc_id == 3:
-    from networks2 import Net_3
+    from networks import Net_3
     model = Net_3(226, 2).to(device)
 elif fc_id == 4:
-    from networks2 import Net_4
+    from networks import Net_4
     model = Net_4(226, 2).to(device)
 elif fc_id == 5:
-    from networks2 import Net_5
+    from networks import Net_5
     model = Net_5(226, 2).to(device)
 elif fc_id == 6:
-    from networks2 import Net_6
+    from networks import Net_6
     model = Net_6(226, 2).to(device)
 
 
@@ -71,23 +70,12 @@ class LoadDotaDataset(Dataset):
     def __len__(self):
         return len(self.x)
 
-
-############################################
-#
-# Observation: 23, 107, 136, 220 are heroes that are never used
-#
-############################################
-
-
-
 trainX=np.asmatrix(dataset['TrainX'])[0,0].astype(np.float32).toarray()
 trainY=np.array(np.asmatrix(dataset['TrainY'])[0,0].astype(np.int).toarray()).flatten()
 validX=np.asmatrix(dataset['ValidX'])[0,0].astype(np.float32).toarray()
 validY=np.array(np.asmatrix(dataset['ValidY'])[0,0].astype(np.float32).toarray()).flatten()
 testX=np.asmatrix(dataset['TestX'])[0,0].astype(np.float32).toarray()
 testY=np.array(np.asmatrix(dataset['TestY'])[0,0].astype(np.float32).toarray()).flatten()
-
-
 
 trainset = LoadDotaDataset(x=trainX, y=trainY)
 validset = LoadDotaDataset(x=validX, y=validY)
