@@ -146,6 +146,7 @@ with open(os.path.join(path,'fc_'+str(fc_id)+'.batch.log'),'a') as f:
         valid_acc /= valid_batch
         if valid_acc > pre_acc:
             best_model = copy.deepcopy(model)
+            pre_acc = valid_acc
             the_epoch = i
         f.write('epoch %d/%d,training accuracy:%f,validation accuracy:%f\n' % (i, epochs, train_acc, valid_acc))
         f.flush()
