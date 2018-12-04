@@ -105,7 +105,7 @@ def trainautoencoder(layer, set):
         # if epochs > 2:
         #     notoverfitting = False
         ############################
-        if epochs > 2:
+        if epochs > 500:
             if ((loss_valid[-1, 0] > 1.2*loss_opt) & (loss_valid[-2, 0] > 1.2*loss_opt)):
                 notoverfitting = False
 
