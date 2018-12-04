@@ -1,10 +1,18 @@
 from trainautoencoder import trainautoencoder
 
-trainautoencoder([100, 25, 5], 'N')
-trainautoencoder([100, 50, 5], 'N')
-trainautoencoder([100, 35, 10], 'N')
-trainautoencoder([100, 50, 10], 'N')
-trainautoencoder([200, 30, 5], 'N')
-trainautoencoder([200, 100, 5], 'N')
-trainautoencoder([200, 45, 10], 'N')
-trainautoencoder([200, 100, 10], 'N')
+set = 'N'
+L = [[200, 50, 10],
+     [200, 100, 10],
+     [200, 150, 10],
+     [200, 55, 15],
+     [200, 110, 15],
+     [200, 165, 15],
+     [200, 65, 20],
+     [200, 110, 20],
+     [200, 155, 20]]
+m = len(L)
+for i in range(m):
+    print('Training {} layer AutoEncoder on set {}: {}/{}'.format(len(L[0]), set, i + 1, m))
+    trainautoencoder(L[i], set)
+
+print('Finished Training AutoEncoder of layer {} on set {}'.format(len(L[0]), set))
