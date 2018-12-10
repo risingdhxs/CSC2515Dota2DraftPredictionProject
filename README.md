@@ -9,9 +9,10 @@ I've tried 12 different fully connected NN and provided the results accordingly 
 - FCs_summary.xlsx: I've included the structures of the NN, epochs, accuracies and loss into this file.
 
 - exp: I ran each of 12 NNs over normal data and place the results into this folder. There are three types of files
-    - *.batch.pth: the best model saved when the best validation accuracy is achieved.
-    - *.batch.log: the log of each experiments
-    - *.batch.log.png: the corresponding graphs
+    - \*.batch.pth: the best model saved when the best validation accuracy is achieved.
+    - \*.batch.log: the log of each experiments
+    - \*.batch.log.png: the corresponding accuracy graphs
+    - \*.batch.log.loss.png: the corresponding loss graphs
     Besides, for each fc_n.*, n means the nth NN.
 
 - exp_VH: I ran each of 12 NNs over VH data and place the results into this folder.
