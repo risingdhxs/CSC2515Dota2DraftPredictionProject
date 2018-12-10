@@ -14,6 +14,7 @@ parser.add_argument('a', type=int) # fc id
 parser.add_argument('e', type=int) # epochs
 parser.add_argument('p', type=str) # path
 parser.add_argument('b', type=int) # batch size
+parser.add_argument('d', type=int) # which data
 
 
 
@@ -22,31 +23,52 @@ args = parser.parse_args()
 fc_id = args.a
 epochs = args.e
 
-
-dataset=np.load('../../data/all/all_IO_noleave_N.npz')
+if args.d and args.d == 1:
+    dataset=np.load('../../data/all/all_IO_noleave_N.npz')
+else:
+    dataset=np.load('../../data/all/all_IO_noleave_VH.npz')
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
 if fc_id == 1:
-    from networks2 import Net_1
+    from networks import Net_1
     model = Net_1(226, 2).to(device)
 elif fc_id == 2:
-    from networks2 import Net_2
+    from networks import Net_2
     model = Net_2(226, 2).to(device)
 elif fc_id == 3:
-    from networks2 import Net_3
+    from networks import Net_3
     model = Net_3(226, 2).to(device)
 elif fc_id == 4:
-    from networks2 import Net_4
+    from networks import Net_4
     model = Net_4(226, 2).to(device)
 elif fc_id == 5:
-    from networks2 import Net_5
+    from networks import Net_5
     model = Net_5(226, 2).to(device)
 elif fc_id == 6:
-    from networks2 import Net_6
+    from networks import Net_6
     model = Net_6(226, 2).to(device)
+elif fc_id == 7:
+    from networks import Net_7
+    model = Net_7(226, 2).to(device)
+elif fc_id == 8:
+    from networks import Net_8
+    model = Net_8(226, 2).to(device)
+elif fc_id == 9:
+    from networks import Net_9
+    model = Net_9(226, 2).to(device)
+elif fc_id == 10:
+    from networks import Net_10
+    model = Net_10(226, 2).to(device)
+elif fc_id == 11:
+    from networks import Net_11
+    model = Net_11(226, 2).to(device)
+elif fc_id == 12:
+    from networks import Net_12
+    model = Net_12(226, 2).to(device)
+
 
 
 loss = torch.nn.CrossEntropyLoss()
@@ -83,9 +105,9 @@ class LoadDotaDataset(Dataset):
 trainX=np.asmatrix(dataset['TrainX'])[0,0].astype(np.float32).toarray()
 trainY=np.array(np.asmatrix(dataset['TrainY'])[0,0].astype(np.int).toarray()).flatten()
 validX=np.asmatrix(dataset['ValidX'])[0,0].astype(np.float32).toarray()
-validY=np.array(np.asmatrix(dataset['ValidY'])[0,0].astype(np.float32).toarray()).flatten()
+validY=np.array(np.asmatrix(dataset['ValidY'])[0,0].astype(np.int).toarray()).flatten()
 testX=np.asmatrix(dataset['TestX'])[0,0].astype(np.float32).toarray()
-testY=np.array(np.asmatrix(dataset['TestY'])[0,0].astype(np.float32).toarray()).flatten()
+testY=np.array(np.asmatrix(dataset['TestY'])[0,0].astype(np.int).toarray()).flatten()
 
 
 
@@ -108,21 +130,23 @@ valid_loader = DataLoader(dataset=validset, batch_size=args.b, shuffle=False)
 
 
 def train(model, loss, optimizer, x, y, device):
-    # x, y = Variable(torch.from_numpy(x)).to(device), Variable(torch.from_numpy(y)).to(device)
     x, y = x.to(device), y.to(device)
     fx = model(x)
     output = loss(fx, y)
     optimizer.zero_grad()
     output.backward()
     optimizer.step()
-    return computeAccuracy(fx, y)
+    # return computeAccuracy(fx, y)
+    return computeLoss(fx, y)
 
 
 def test(model, x, y, device):
-    # x, y = Variable(torch.from_numpy(x)).to(device), Variable(torch.from_numpy(y)).to(device)
     x, y = x.to(device), y.to(device)
     fx = model(x)
-    return computeAccuracy(fx, y)
+    output = loss(fx, y)
+    l = output.item()
+    # return computeAccuracy(fx, y)
+    return computeLoss(fx, y)
 
  
 def computeAccuracy(fx, y):
@@ -131,6 +155,12 @@ def computeAccuracy(fx, y):
     target_y = y.data.cpu().numpy()
     accuracy = sum(pred_y == target_y)/len(pred_y)
     return accuracy
+
+def computeLoss(fx, y):
+    _loss = torch.nn.CrossEntropyLoss()
+    l = _loss(fx, y).item()
+    return l
+
 
 
 with open(os.path.join(path,'fc_'+str(fc_id)+'.batch.log'),'a') as f:
@@ -148,7 +178,7 @@ with open(os.path.join(path,'fc_'+str(fc_id)+'.batch.log'),'a') as f:
             best_model = copy.deepcopy(model)
             pre_acc = valid_acc
             the_epoch = i
-        f.write('epoch %d/%d,training accuracy:%f,validation accuracy:%f\n' % (i, epochs, train_acc, valid_acc))
+        f.write('epoch %d/%d,training loss:%f,validation loss:%f\n' % (i, epochs, train_acc, valid_acc))
         f.flush()
         
     model_path = os.path.join(path,'fc_'+str(fc_id)+'.batch.pth')
