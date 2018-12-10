@@ -1,2 +1,5 @@
 algorithms/practice/
 .idea/
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
