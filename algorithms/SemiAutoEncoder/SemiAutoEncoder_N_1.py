@@ -1,6 +1,6 @@
 from trainautoencoder_227 import trainautoencoder_227
 
-set = 'VH'
+set = 'N'
 L = [[200, 100, 50],
      [100, 50],
      [200, 100],
