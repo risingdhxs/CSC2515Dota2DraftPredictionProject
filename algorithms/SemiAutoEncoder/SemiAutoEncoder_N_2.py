@@ -1,7 +1,7 @@
 from trainautoencoder_227 import trainautoencoder_227
 
 set = 'N'
-L = [[300, 150, 75],
+L = [[300, 150, 50],
      [300, 50],
      [300, 75]
 m = len(L)
