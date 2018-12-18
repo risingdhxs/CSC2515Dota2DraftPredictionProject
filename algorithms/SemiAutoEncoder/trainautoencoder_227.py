@@ -273,6 +273,10 @@ def trainautoencoder_227(layer, set, result_draft_ratio):
                     print(
                     'Training stagnant at epoch {}; optimal model occurred at epoch {} with validation loss {:.4f}'.format(
                         epochs - 1, epoch_opt, loss_opt))
+        elif epochs > 1500:
+            print('Training exceeds 1500 epoch; optimal model at epoch {} with valid loss {:.4f}'.format(epoch_opt,
+                                                                                                         loss_opt))
+            notoverfitting = False
 
         epochs = epochs + 1
 

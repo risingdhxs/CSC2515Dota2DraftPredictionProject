@@ -1,9 +1,10 @@
 from trainautoencoder_227 import trainautoencoder_227
 
 set = 'N'
-L = [[200, 100, 50],
-     [100, 50],
-     [200, 100],
+L = [[200, 20],
+     [300, 20],
+     [200, 50],
+     [300, 50],
      [300, 100]]
 m = len(L)
 for i in range(m):
