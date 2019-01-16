@@ -228,10 +228,10 @@ def trainautoencoder_227(layer, set, result_draft_ratio):
             acc_test = acc_test / m_test
 
             print(
-                'On {} dataset, Current weighted {} AutoEncoder T/V/T recon loss: {:.4f}/{:.4f}/{:.4f}, '
+                'On {} dataset, Current weighted {} AutoEncoder with ratio {} T/V/T recon loss: {:.4f}/{:.4f}/{:.4f}, '
                 'with recon mistake {}/{}/{}'
-                    .format(set, nodenum, loss_train_v, loss_valid_v, loss_test, misrecon_train, misrecon_valid,
-                            misrecon_test))
+                    .format(set, nodenum, result_draft_ratio, loss_train_v, loss_valid_v, loss_test, misrecon_train,
+                            misrecon_valid, misrecon_test))
             print('Decoder Prediction Accuracy: {:.2f}/{:.2f}/{:.2f}'.format(100 * acc_train_v, 100 * acc_valid_v,
                                                                              100 * acc_test))
 
@@ -273,6 +273,11 @@ def trainautoencoder_227(layer, set, result_draft_ratio):
                     print(
                     'Training stagnant at epoch {}; optimal model occurred at epoch {} with validation loss {:.4f}'.format(
                         epochs - 1, epoch_opt, loss_opt))
+
+        if epochs > 2500:
+            print('Training exceeds 2500 epoch; optimal model at epoch {} with valid loss {:.4f}'.format(epoch_opt,
+                                                                                                         loss_opt))
+            notoverfitting = False
 
         epochs = epochs + 1
 
@@ -373,8 +378,11 @@ def trainautoencoder_227(layer, set, result_draft_ratio):
     loss_test = loss_test / i
     acc_test = acc_test / m_test
 
-    print('On {} dataset, optimal {} AutoEncoder T/V/T loss: {:.4f}/{:.4f}/{:.4f}'.format(set, nodenum, loss_train,
-                                                                                          loss_valid, loss_test))
+    print('On {} dataset, optimal {} AutoEncoder with ratio {} T/V/T loss: {:.4f}/{:.4f}/{:.4f}'.format(set, nodenum,
+                                                                                                        result_draft_ratio,
+                                                                                                        loss_train,
+                                                                                                        loss_valid,
+                                                                                                        loss_test))
 
     print('Comparing Reconstructed Draft with Actual Draft')
     g1=33
@@ -416,18 +424,19 @@ def trainautoencoder_227(layer, set, result_draft_ratio):
 
     ax1.set_title(
         'Semi-AE of layer {} on {} data, Result-to-Recon ratio {:.1f}'
-        '\n valid recon loss {:.4f}, encode LR accuracy {:2.2f}%'.format(nodenum, set, outcomeweight / pickweight,
+        '\n valid recon loss {:.4f}, encode LR accuracy {:2.2f}%'.format(nodenum, set, result_draft_ratio,
                                                                          loss_opt, 100 * score_valid_lr_encode))
 
     ax2.set_title('Decoder Prediction Accuracy {:2.2f}% on Test Set'.format(acc_test * 100))
 
-    fig.savefig('Semi_AutoEncoder_{}_all_IO_noleave_{}.jpg'.format(nodenum, set))
+    fig.savefig('Semi_AutoEncoder_{}_all_IO_noleave_{}_ratio_{}.jpg'.format(nodenum, set, result_draft_ratio))
 
-    filetitle = 'Semi_AutoEncoder_{}_all_IO_noleave_{}.pt'.format(nodenum, set)
+    filetitle = 'Semi_AutoEncoder_{}_all_IO_noleave_{}_ratio_{}.pt'.format(nodenum, set, result_draft_ratio)
 
     torch.save({
         'model_state_dict': model_state_dict_opt,
         'layer': layer,
+        'result_draft_ratio': result_draft_ratio,
         'epochs': epochs,
         'epoch_optimal': epoch_opt,
         'loss_optimal': loss_opt,

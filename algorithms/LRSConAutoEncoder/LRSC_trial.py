@@ -91,7 +91,7 @@ print('Expanding encoded Training data into LRSC format')
 encodeX_train_sc = preprocess_input_data(encodeX_train)
 del encodeX_train
 print('Fitting LRSC_encode model')
-lrsc_encode = LogisticRegression(solver='newton-cg', max_iter=100)
+lrsc_encode = LogisticRegression(solver='newton-cg', max_iter=10)
 lrsc_encode.fit(encodeX_train_sc, TrainY.ravel())
 score_train_lrsc_encode = lrsc_encode.score(encodeX_train_sc, TrainY.ravel())
 del encodeX_train_sc

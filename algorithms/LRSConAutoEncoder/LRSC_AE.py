@@ -12,7 +12,7 @@ import pickle
 
 def samplecut(m, n):
     mem = 15
-    lim = (6e8)*(mem/15)
+    lim = (7e8)*(mem/15)
     if 2*m*n*n > lim:
         return int(m* (lim / (2*m*n*n)))
     else:
