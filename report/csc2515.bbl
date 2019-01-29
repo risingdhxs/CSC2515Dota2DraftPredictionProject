@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+
+\bibitem{chen2018modeling}
+Zhengxing Chen, Yuyu Xu, Truong-Huy~D Nguyen, Yizhou Sun, and Magy~Seif
+  El-Nasr.
+\newblock Modeling game avatar synergy and opposition through embedding in
+  multiplayer online battle arena games.
+\newblock {\em arXiv preprint arXiv:1803.10402}, 2018.
+
+\bibitem{grutzik2017predicting}
+Petra Grutzik, Joe Higgins, and Long Tran.
+\newblock Predicting outcomes of professional dota 2 matches.
+\newblock 2017.
+
+\bibitem{Kaggle}
+Kaggle.
+\newblock Dota 2: Win probability prediction.
+\newblock
+  \url{https://www.kaggle.com/c/dota-2-win-probability-prediction#description},
+  2016.
+\newblock Accessed: 2018-10-01.
+
+\bibitem{semenov2016performance}
+Aleksandr Semenov, Peter Romov, Sergey Korolev, Daniil Yashkov, and Kirill
+  Neklyudov.
+\newblock Performance of machine learning algorithms in predicting game outcome
+  from drafts in dota 2.
+\newblock In {\em International Conference on Analysis of Images, Social
+  Networks and Texts}, pages 26--37. Springer, 2016.
+
+\end{thebibliography}
