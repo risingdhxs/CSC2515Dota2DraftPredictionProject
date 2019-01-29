@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: csc2515.aux
+The style file: plain.bst
+Database file #1: csc2515.bib
+Warning--empty booktitle in grutzik2017predicting
+You've used 4 entries,
+            2118 wiz_defined-function locations,
+            517 strings with 4796 characters,
+and the built_in function-call counts, 1385 in all, are:
+= -- 128
+> -- 81
+< -- 1
++ -- 32
+- -- 28
+* -- 86
+:= -- 238
+add.period$ -- 14
+call.type$ -- 4
+change.case$ -- 26
+chr.to.int$ -- 0
+cite$ -- 5
+duplicate$ -- 51
+empty$ -- 104
+format.name$ -- 28
+if$ -- 289
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 3
+newline$ -- 24
+num.names$ -- 8
+pop$ -- 38
+preamble$ -- 1
+purify$ -- 22
+quote$ -- 0
+skip$ -- 35
+stack$ -- 0
+substring$ -- 44
+swap$ -- 12
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 1
+while$ -- 11
+width$ -- 5
+write$ -- 45
+(There was 1 warning)

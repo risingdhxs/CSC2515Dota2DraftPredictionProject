@@ -1,0 +1,21 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{DotA 2Kaggle}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Drafting Phasegrutzik2017predicting}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Project Overview}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Literature review}{}% 5
+\BOOKMARK [1][-]{section.3}{PROBLEM DEFINITION, RESEARCH DESIGN AND METHODS}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Problem Definition}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Sources of Data}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Research Design}{section.3}% 9
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Benchmark Models: generalized linear methods}{subsection.3.3}% 10
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Improvement on Benchmark Models}{subsection.3.3}% 11
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Non-Linear Models: Neural Networks}{subsection.3.3}% 12
+\BOOKMARK [3][-]{subsubsection.3.3.4}{Combining Neural Networks with Classical Models: Auto Encoders}{subsection.3.3}% 13
+\BOOKMARK [1][-]{section.4}{RESULTS AND DISCUSSION}{}% 14
+\BOOKMARK [2][-]{subsection.4.1}{Benchmark Models: generalized linear methods}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.2}{Improvement on Benchmark Models}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.3}{Non-Linear Models: Fully Connected Neural Networks}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.4}{Non-Linear Models: Structured Neural Networks}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.5}{Combining Neural Networks with Classical Models: Auto Encoders}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.6}{Conclusion}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.7}{Limitations and Future Work}{section.4}% 21
